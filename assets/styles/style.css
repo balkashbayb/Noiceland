@@ -1,0 +1,139 @@
+:root {
+    --dark: #0a142d;
+    --light: #fff;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetic, sans-serif;
+}
+/*HEADER*/
+.header .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    height: 90px;
+}
+.header__link {
+    display: inline-block;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 40px;
+}
+/*HEADER*/
+/*MAIN*/
+.section{
+    display: flex;
+}
+.section__left{
+    height: 721px;
+    width: 474px;
+    padding-top: 20px;
+}
+.section__right{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 429px;
+    width: 474px;
+    padding-top: 20px;
+}
+
+.right__title{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.right__text{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.right__paragraph{
+    font-family: 'Source Serif Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 28px;
+}
+.right__autor{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/*MAIN*/
+/*SECTION*/
+.section__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.section__card{
+    margin: 0 20px 74px 0;
+}
+.card__title{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.card__text{
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.card__autor{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/*SECTION*/
